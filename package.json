@@ -1,6 +1,6 @@
 {
   "name": "instagram-save-client",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Download images/videos from Instagram at client side",
   "main": "index.js",
   "scripts": {
@@ -24,10 +24,10 @@
   },
   "homepage": "https://github.com/HaibiPeng/instagram-save-client",
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.26.0",
     "file-saver": "^2.0.5"
   },
   "devDependencies": {
-    "jest": "^25.4.0"
+    "jest": "^27.5.1"
   }
 }
