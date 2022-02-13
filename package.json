@@ -1,5 +1,5 @@
 {
-  "name": "instagram-download-client",
+  "name": "instagram-save-client",
   "version": "0.1.0",
   "description": "Download images/videos from Instagram at client side",
   "main": "index.js",
@@ -8,20 +8,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/HaibiPeng/instagram-download-client.git"
+    "url": "git+https://github.com/HaibiPeng/instagram-save-client.git"
   },
   "keywords": [
     "Instagram",
     "Downloader",
     "downloader",
+    "save",
     "posts"
   ],
-  "author": "haibipeng <haibi.peng@aliyun.com>",
+  "author": "haibipeng <phb625031983@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/HaibiPeng/instagram-download-client/issues"
+    "url": "https://github.com/HaibiPeng/instagram-save-client/issues"
   },
-  "homepage": "https://github.com/HaibiPeng/instagram-download-client",
+  "homepage": "https://github.com/HaibiPeng/instagram-save-client",
   "dependencies": {
     "axios": "^0.19.2",
     "file-saver": "^2.0.5"
