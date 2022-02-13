@@ -11,10 +11,10 @@ npm i instagram-save-client
 # Usage
 
 ````javascript
-const instagram_save_client = require ('instagram-save-client');
+import { downloadMedia } from 'instagram-save-client';
 
 (async () => {
-    await instagram_save_client.downloadMedia('https://www.instagram.com/tv/CYQyOuCAMrl/?utm_source=ig_web_copy_link');
+    await downloadMedia('https://www.instagram.com/tv/CYQyOuCAMrl/?utm_source=ig_web_copy_link');
 })();
 
 ````
