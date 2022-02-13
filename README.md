@@ -1,43 +1,25 @@
-[![Build Status](https://travis-ci.org/juliendu11/Instagram-Downloader.svg?branch=master)](https://travis-ci.org/juliendu11/Instagram-Downloader)
+# Client side Instagram downloader
 
-# Node JS Instagram downloader
-
-Download Instagram images and videos (not api required)
-
-It's async/await lib
-
-Whenever you download a video, the preview will also be downloaded
+Download images and videos from Instagram at client side.
 
 ## Install
 
 ```bash
-npm i @juliendu11/instagram-downloader
+npm i instagram-save-client
 ```
 
-# How to use ?
+# Usage
 
 ````javascript
-const instagram_download = require ('@juliendu11/instagram-downloader');
+const instagram_save_client = require ('instagram-save-client');
 
 (async () => {
-const value = await instagram_download.downloadMedia('[MEDIA]', '[PATH_TO_SAVE]')
-console.log(value)
+    await instagram_save_client.downloadMedia('https://www.instagram.com/tv/CYQyOuCAMrl/?utm_source=ig_web_copy_link');
 })();
 
-````
-
-Example:
-
-
-````javascript
-const instagram_download = require ('@juliendu11/instagram-downloader');
-
-(async () => {
-const value = await instagram_download.downloadMedia('https://www.instagram.com/p/B_SgH6MHc2s/', './')
-console.log(value)
-})();
 ````
 
 ## Dependencies
 
 - [axios](https://www.npmjs.com/package/axios)
+- [file-saver](https://www.npmjs.com/package/file-saver)
