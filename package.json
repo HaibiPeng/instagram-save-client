@@ -1,6 +1,6 @@
 {
   "name": "instagram-save-client",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Download images/videos from Instagram at client side",
   "main": "index.js",
   "scripts": {
